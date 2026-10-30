@@ -1,0 +1,18 @@
+{
+  "release": "v0.2.0",
+  "format": "sanitized-full-emmc-template",
+  "image_bytes": 7818182656,
+  "unit_tests_passed": 28,
+  "private_and_unallocated_regions_verified_zero": true,
+  "donor_gpt_guids_removed": true,
+  "public_image_is_directly_flashable": false,
+  "requires_target_devices_own_stock_backup": true,
+  "actual_personalization_matches_previously_verified_complete_image": true,
+  "private_personalized_image_published": false,
+  "linux_system_published": false,
+  "clean_data_flash_test_performed": false,
+  "actual_donor_guid_intersection_count": 0,
+  "zeroed_bytes_outside_public_firmware_and_gpt": 5737773568,
+  "firmware_partitions_identical_to_v0.1.0": true,
+  "release_archive_member_checksums_verified": true
+}

@@ -9,11 +9,17 @@ from firmware_tools import load_manifest, verify_output
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--stock-backup", type=Path, required=True)
-    parser.add_argument("--firmware-dir", type=Path, required=True)
+    inputs = parser.add_mutually_exclusive_group(required=True)
+    inputs.add_argument("--firmware-dir", type=Path)
+    inputs.add_argument("--template-metadata", type=Path)
     parser.add_argument("--image", type=Path, required=True)
     args = parser.parse_args()
     try:
-        manifest = load_manifest(args.firmware_dir)
+        if args.template_metadata:
+            from sanitized_template import load_metadata, template_manifest
+            manifest = template_manifest(load_metadata(args.template_metadata))
+        else:
+            manifest = load_manifest(args.firmware_dir)
         digest = verify_output(args.stock_backup, args.image, args.firmware_dir, manifest)
     except (ValueError, OSError) as error:
         parser.exit(1, "Verification failed: " + str(error) + "\n")

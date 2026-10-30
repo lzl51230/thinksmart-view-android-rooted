@@ -1,0 +1,31 @@
+{
+  "release": "v0.2.0",
+  "archive": "thinksmart-view-cd18781y-rooted-sanitized-full-v0.2.0.tar.xz",
+  "bytes": 948949756,
+  "sha256": "35e302627b8ff47a78ddade46421e5e304a4b4749f34264eae41d46afc3d02d7",
+  "template_bytes": 7818182656,
+  "template_sha256": "205ff49489a927a020bb8e9e20b65099b04b43e393784bc06ef5afcdf674f80f",
+  "members": [
+    "LICENSE",
+    "README.md",
+    "SHA256SUMS",
+    "THIRD_PARTY.md",
+    "docs/partition-kit-v0.1.0.md",
+    "extras/Magisk-v30.7-source.tar.gz",
+    "extras/Magisk-v30.7.apk",
+    "firmware_tools.py",
+    "licenses/Magisk-GPL-3.0.txt",
+    "personalize_image.py",
+    "prepare_restore.py",
+    "sanitized_template.py",
+    "template.img",
+    "template.json",
+    "tests/test_restore.py",
+    "tests/test_sanitized_template.py",
+    "tools/check_statusbar.py",
+    "tools/patch_framework.py",
+    "verify_restore.py"
+  ],
+  "directly_flashable": false,
+  "contains_donor_private_partitions": false
+}

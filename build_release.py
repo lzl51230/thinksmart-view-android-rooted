@@ -46,7 +46,12 @@ def main():
     for name in PUBLIC_FILES:
         destination = kit / name
         destination.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copyfile(source / name, destination)
+        legacy_guide = source / "docs/partition-kit-v0.1.0.md"
+        if name == "README.md" and manifest["release"] == "v0.1.0" and legacy_guide.exists():
+            destination.write_text(legacy_guide.read_text().replace(
+                "(../THIRD_PARTY.md)", "(THIRD_PARTY.md)"))
+        else:
+            shutil.copyfile(source / name, destination)
     names = sorted(PUBLIC_FILES + ["manifest.json"] +
                    [entry["file"] for entry in manifest["images"]] +
                    [entry["file"] for entry in manifest["extras"]])
