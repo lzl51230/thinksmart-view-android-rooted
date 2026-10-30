@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "release": "v0.1.0",
+  "device_model": "Lenovo ThinkSmart View CD-18781Y",
+  "android_version": "8.1.0",
+  "firmware_build": "Lenovo_Kingston_OS_PV_220620_V0.0.40",
+  "root": "Magisk 30.7 (30700)",
+  "status_bar_dp": 24,
+  "sector_size": 512,
+  "image_bytes": 7818182656,
+  "stock_boot_sha256": "fd08fe28e0369983456d74b373dcbdcf9a60fac5a82f41cca21b555bdc3d8bac",
+  "framework_sha256": "6326af13f272d6d263e224ecd8ec5eadb5733476216df9320222e6b1df591dc2",
+  "layout": [
+    {
+      "name": "modem",
+      "start_sector": 131072,
+      "sectors": 172032
+    },
+    {
+      "name": "fsc",
+      "start_sector": 393216,
+      "sectors": 2
+    },
+    {
+      "name": "ssd",
+      "start_sector": 393224,
+      "sectors": 16
+    },
+    {
+      "name": "sbl1",
+      "start_sector": 393240,
+      "sectors": 1024
+    },
+    {
+      "name": "sbl1bak",
+      "start_sector": 394264,
+      "sectors": 1024
+    },
+    {
+      "name": "rpm",
+      "start_sector": 395288,
+      "sectors": 1024
+    },
+    {
+      "name": "rpmbak",
+      "start_sector": 396312,
+      "sectors": 1024
+    },
+    {
+      "name": "tz",
+      "start_sector": 397336,
+      "sectors": 4096
+    },
+    {
+      "name": "tzbak",
+      "start_sector": 401432,
+      "sectors": 4096
+    },
+    {
+      "name": "devcfg",
+      "start_sector": 405528,
+      "sectors": 512
+    },
+    {
+      "name": "devcfgbak",
+      "start_sector": 406040,
+      "sectors": 512
+    },
+    {
+      "name": "dsp",
+      "start_sector": 406552,
+      "sectors": 32768
+    },
+    {
+      "name": "modemst1",
+      "start_sector": 439320,
+      "sectors": 3072
+    },
+    {
+      "name": "modemst2",
+      "start_sector": 442392,
+      "sectors": 3072
+    },
+    {
+      "name": "DDR",
+      "start_sector": 524288,
+      "sectors": 64
+    },
+    {
+      "name": "fsg",
+      "start_sector": 524352,
+      "sectors": 3072
+    },
+    {
+      "name": "sec",
+      "start_sector": 527424,
+      "sectors": 32
+    },
+    {
+      "name": "splash",
+      "start_sector": 655360,
+      "sectors": 22528
+    },
+    {
+      "name": "aboot",
+      "start_sector": 786432,
+      "sectors": 2048
+    },
+    {
+      "name": "abootbak",
+      "start_sector": 788480,
+      "sectors": 2048
+    },
+    {
+      "name": "boot",
+      "start_sector": 790528,
+      "sectors": 65536
+    },
+    {
+      "name": "recovery",
+      "start_sector": 856064,
+      "sectors": 65536
+    },
+    {
+      "name": "devinfo",
+      "start_sector": 921600,
+      "sectors": 2048
+    },
+    {
+      "name": "system",
+      "start_sector": 923648,
+      "sectors": 3145728
+    },
+    {
+      "name": "vendor",
+      "start_sector": 4069376,
+      "sectors": 786432
+    },
+    {
+      "name": "cache",
+      "start_sector": 4980736,
+      "sectors": 258048
+    },
+    {
+      "name": "persist",
+      "start_sector": 5238784,
+      "sectors": 65536
+    },
+    {
+      "name": "misc",
+      "start_sector": 5304320,
+      "sectors": 2048
+    },
+    {
+      "name": "keystore",
+      "start_sector": 5306368,
+      "sectors": 1024
+    },
+    {
+      "name": "config",
+      "start_sector": 5307392,
+      "sectors": 64
+    },
+    {
+      "name": "oem",
+      "start_sector": 5307456,
+      "sectors": 204800
+    },
+    {
+      "name": "limits",
+      "start_sector": 5636096,
+      "sectors": 64
+    },
+    {
+      "name": "mota",
+      "start_sector": 5767168,
+      "sectors": 1024
+    },
+    {
+      "name": "dip",
+      "start_sector": 5768192,
+      "sectors": 2048
+    },
+    {
+      "name": "mdtp",
+      "start_sector": 5770240,
+      "sectors": 65536
+    },
+    {
+      "name": "syscfg",
+      "start_sector": 5835776,
+      "sectors": 1024
+    },
+    {
+      "name": "mcfg",
+      "start_sector": 5836800,
+      "sectors": 8192
+    },
+    {
+      "name": "lksecapp",
+      "start_sector": 5898240,
+      "sectors": 256
+    },
+    {
+      "name": "lksecappbak",
+      "start_sector": 5898496,
+      "sectors": 256
+    },
+    {
+      "name": "cmnlib",
+      "start_sector": 5898752,
+      "sectors": 2048
+    },
+    {
+      "name": "cmnlibbak",
+      "start_sector": 5900800,
+      "sectors": 2048
+    },
+    {
+      "name": "cmnlib64",
+      "start_sector": 5902848,
+      "sectors": 2048
+    },
+    {
+      "name": "cmnlib64bak",
+      "start_sector": 5904896,
+      "sectors": 2048
+    },
+    {
+      "name": "keymaster",
+      "start_sector": 5906944,
+      "sectors": 2048
+    },
+    {
+      "name": "keymasterbak",
+      "start_sector": 5908992,
+      "sectors": 2048
+    },
+    {
+      "name": "apdp",
+      "start_sector": 6029312,
+      "sectors": 512
+    },
+    {
+      "name": "msadp",
+      "start_sector": 6029824,
+      "sectors": 512
+    },
+    {
+      "name": "dpo",
+      "start_sector": 6030336,
+      "sectors": 16
+    },
+    {
+      "name": "logdump",
+      "start_sector": 6030352,
+      "sectors": 131072
+    },
+    {
+      "name": "resource",
+      "start_sector": 6161424,
+      "sectors": 729088
+    },
+    {
+      "name": "userdata",
+      "start_sector": 6890512,
+      "sectors": 8379343
+    }
+  ],
+  "images": [
+    {
+      "partition": "boot",
+      "file": "images/boot.img",
+      "bytes": 33554432,
+      "sha256": "b92c0b7cca746f75ea6cc6adb74ca18231948ebcbc451302eaaba6e1ea207c72"
+    },
+    {
+      "partition": "system",
+      "file": "images/system.img",
+      "bytes": 1610612736,
+      "sha256": "63fd820dca77c1d6c783fdc70d029588462cad2c5667cb99eb07a007a65afcdc"
+    },
+    {
+      "partition": "vendor",
+      "file": "images/vendor.img",
+      "bytes": 402653184,
+      "sha256": "63789fba441952c49c3c0a7179e56ef1d990d625110ae0ae86dab9511d32d3a1"
+    },
+    {
+      "partition": "recovery",
+      "file": "images/recovery.img",
+      "bytes": 33554432,
+      "sha256": "481d356f38f17df229379defd1e728fc1d516e4c95ecaee5bb897b1a13e45b83"
+    }
+  ],
+  "extras": [
+    {
+      "file": "extras/Magisk-v30.7.apk",
+      "sha256": "e0d32d2123532860f97123d927b1bb86c4e08e6fd8a48bfc6b5bee0afae9ebd5",
+      "source": "https://github.com/topjohnwu/Magisk/releases/tag/v30.7"
+    },
+    {
+      "file": "extras/Magisk-v30.7-source.tar.gz",
+      "sha256": "9a908fc13a60bbb95c848c9e8cfbb5bd4e49fda98ee6932907c4a517fbc95437",
+      "source": "https://github.com/topjohnwu/Magisk/tree/v30.7"
+    }
+  ]
+}

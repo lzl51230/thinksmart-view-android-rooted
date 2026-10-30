@@ -1,0 +1,29 @@
+{
+  "archive": "thinksmart-view-cd18781y-android8.1-rooted-v0.1.0.tar.xz",
+  "bytes": 948601576,
+  "sha256": "638606fc7fa1b5443357b9cbdeda59f9bd685f151a8207333855924b914df5ed",
+  "members": [
+    "LICENSE",
+    "README.md",
+    "SHA256SUMS",
+    "THIRD_PARTY.md",
+    "build_release.py",
+    "export_firmware.py",
+    "extras/Magisk-v30.7-source.tar.gz",
+    "extras/Magisk-v30.7.apk",
+    "firmware/android-layout.json",
+    "firmware_tools.py",
+    "images/boot.img",
+    "images/recovery.img",
+    "images/system.img",
+    "images/vendor.img",
+    "licenses/Magisk-GPL-3.0.txt",
+    "manifest.json",
+    "prepare_restore.py",
+    "tests/test_restore.py",
+    "tools/check_statusbar.py",
+    "tools/patch_framework.py",
+    "verify_restore.py"
+  ],
+  "tar_owner_metadata": "uid/gid 0, empty user/group names, mtime 0"
+}

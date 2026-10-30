@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "release": "v0.1.0",
+  "device_model": "ThinkSmart View CD-18781Y",
+  "unit_tests_passed": 16,
+  "actual_backup_assembly": {
+    "image_bytes": 7818182656,
+    "stock_backup_checksum_verified": true,
+    "both_gpts_valid": true,
+    "only_boot_system_vendor_recovery_replaced": true,
+    "all_other_regions_match_input_backup": true
+  },
+  "hardware_checks": {
+    "android": "8.1.0",
+    "magisk": "30.7 (30700)",
+    "root_uid": 0,
+    "status_bar_dp": 24,
+    "status_bar_px": 36,
+    "notification_panel": true,
+    "quick_settings": true,
+    "navigation": true,
+    "survives_reboot": true,
+    "selinux": "Enforcing",
+    "system_mount": "read-only"
+  },
+  "publication_scope": {
+    "image_partitions": [
+      "boot",
+      "system",
+      "vendor",
+      "recovery"
+    ],
+    "known_personal_marker_scan": "passed",
+    "private_full_image_published": false,
+    "linux_system_published": false,
+    "release_archive_member_checksums_verified": true
+  },
+  "full_clean_data_flash_test": false,
+  "device_flashed_during_publication": false
+}
